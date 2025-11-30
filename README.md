@@ -31,7 +31,15 @@ The program uses numerical techniques to analyse a Tesla Roadster’s range alon
 - **PCHIP Interpolation**  
   - Creates a continuous velocity function from discrete route measurements
 
----
 
-## 📁 Repository Structure
+### **1. Route & Consumption Modelling**
+- Reads `.npz` speed data for two routes (Anna and Elsa)
+- Builds continuous functions using PCHIP interpolation
+- Implements Tesla Roadster energy consumption model
+
+### **2. Numerical Integration**
+- Computes travel time and energy usage:
+  ```math
+  T(x) = \int_0^x \frac{1}{v(s)}\, ds
+
 
