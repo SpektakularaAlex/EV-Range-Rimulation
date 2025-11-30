@@ -23,9 +23,11 @@ The program uses numerical techniques to analyse a Tesla Roadster’s range alon
 
 - **Explicit Euler Method**  
   - Solving the ODE  
-    \[
-    x'(t) = f(t, x),\quad x(t_0) = 0
-    \]
+    
+    ```math
+    x'(t) = f(t, x),
+    
+    x(t_0) = 0
   - Simulation of a 60 km route in New York with time-dependent speed profiles
 
 - **PCHIP Interpolation**  
